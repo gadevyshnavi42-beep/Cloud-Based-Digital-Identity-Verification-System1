@@ -1,0 +1,20 @@
+# Node dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Env files
+backend/.env
+frontend/.env
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
